@@ -1,16 +1,8 @@
 import React from 'react';
 import {
-  Avatar,
-  Box,
   Button,
-  Container,
   Grid,
   makeStyles,
-  TextField,
-  Typography,
-  Icon,
-  List,
-  ListSubheader
 } from '@material-ui/core';
 import { loadCSS } from 'fg-loadcss';
 import Typist from 'react-typist';
