@@ -48,6 +48,7 @@ function Homepage ({ match }) {
               alignItems="center"
               spacing={6}
             >
+              
             <Button size='medium' className={styles.button} style={{marginTop:50}}> View my work </Button>
             </Grid>
       </Fade>
@@ -64,12 +65,11 @@ function Homepage ({ match }) {
           <p className='name'> Hello, I'm Hoya.</p> 
         </Typist>
         {
-          titleDone ?  
+          titleDone ?  (
          body()
-         :null
+          ):null
         }
-
-         <Footer />
+      <Footer />
     </div> 
     
   </div>
